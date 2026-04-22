@@ -39,13 +39,13 @@ câu A3
     [hộp 2]
     [text C][text D]->text D đc in đậm 
     hộp 3]
-    
+
 câu A4
     -phân biệt
-    < thead>	Header	Tiêu đề cột
-    < tbody>	Body	Dữ liệu chính
-    < tfoot>	Footer	Tổng kết
+        < thead>	Header	Tiêu đề cột
+        < tbody>	Body	Dữ liệu chính
+        < tfoot>	Footer	Tổng kết
     -vì 
-    +< table> chỉ dùng cho dữ liệu dạng bảng (danh sách, so sánh, thống kê)
-    +layout  khó thay đổi kích thước linh hoạt trên các thiết bị khác nhau
-    +chỉnh sửa layout bằng bảng khó khăn
+         +< table> chỉ dùng cho dữ liệu dạng bảng (danh sách, so sánh, thống kê)
+        +layout  khó thay đổi kích thước linh hoạt trên các thiết bị khác nhau
+        +chỉnh sửa layout bằng bảng khó khăn
