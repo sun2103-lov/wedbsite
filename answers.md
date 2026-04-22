@@ -1,13 +1,5 @@
 Phân A
 câu A1
-    a) Khi bạn gõ https://shopee.vn vào trình duyệt và nhấn Enter, hãy liệt kê đúng thứ tự ít nhất 5 bước xảy ra (từ DNS lookup đến render).
-
-    b) Trong DevTools của Chrome, tab Network cho thấy thông tin gì? Hãy mở một trang web bất kỳ, chụp screenshot tab Network và đánh dấu (vẽ mũi tên/khoanh tròn) vào:
-    -Status Code của request đầu tiên
-    -Tổng thời gian load trang
-    -Một request trả về file CSS
-
-
     a)các bước xẩy ra:
         1.DNS Lookup (Phân giải tên miền):Trình duyệt cần tìm địa chỉ IP tương ứng với tên miền
         2.TCP Handshake (Thiết lập kết nối):Sau khi có IP, trình duyệt và máy chủ Shopee thiết lập kết nối tin cậy.
@@ -21,6 +13,10 @@ câu A1
         -Trạng thái (Status): Kết quả của yêu cầu (Thành công, Lỗi, hoặc từ Cache).
         -Loại file (Type): Định dạng của tài nguyên được tải về.
         -Thời gian (Time/Waterfall): Quá trình tải mất bao lâu và diễn ra vào thời điểm nào.
+        chú thích bên ảnh chụp màn hình : 
+            blu:Status Code của request đầu tiên
+            red:Tổng thời gian load trang
+            yellow: Một request trả về file CSS
         
 câu A2
     Dùng < div class="header"> thay vì thẻ ngữ nghĩa < header>  
@@ -49,3 +45,14 @@ câu A4
          +< table> chỉ dùng cho dữ liệu dạng bảng (danh sách, so sánh, thống kê)
         +layout  khó thay đổi kích thước linh hoạt trên các thiết bị khác nhau
         +chỉnh sửa layout bằng bảng khó khăn
+
+câu B3
+    Lỗi 1: Dòng 1 — Sai DOCTYPE — Sửa thành <!DOCTYPE html>
+    Lỗi 2: Dòng 4 — <title> không đóng — Thêm </title>
+    Lỗi 3: Dòng 5 — Sai utf8 — Sửa thành utf-8
+    Lỗi 4: Dòng 9 — <h1> không đóng — Sửa thành <h1>...</h1>
+    Lỗi 5: Dòng 13 — <a> không đóng — Thêm </a>
+    Lỗi 6: Dòng 13 — Link sai — Sửa href="home" → href="#home"
+    Lỗi 7: Dòng 22 — Đóng thẻ sai — Sửa thành <p>Giá: <b>...</b></p>
+    Lỗi 8: Dòng 36 — Footer chưa đóng — Thêm </p> và </footer>
+    
