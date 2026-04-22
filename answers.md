@@ -22,14 +22,14 @@ câu A1
         -Thời gian (Time/Waterfall): Quá trình tải mất bao lâu và diễn ra vào thời điểm nào.
         
 câu A2
-    Dùng <div class="header"> thay vì thẻ ngữ nghĩa <header>  
+    Dùng < div class="header"> thay vì thẻ ngữ nghĩa < header>  
 → Google không nhận diện đây là phần đầu trang.
-    Logo chỉ là <div>  
-→ Nên dùng thẻ <h1> hoặc <a> để thể hiện tên thương hiệu, giúp SEO nhận diện rõ.
-    Menu điều hướng dùng <div>  
-→ Nên dùng <nav> và danh sách <ul><li> để thể hiện cấu trúc menu.
-   Tiêu đề sản phẩm dùng <div class="title">  
-→ Nên dùng thẻ heading như <h2> để Google hiểu đây là tiêu đề nội dung quan trọng.
+    Logo chỉ là < div>  
+→ Nên dùng thẻ < h1> hoặc < a> để thể hiện tên thương hiệu, giúp SEO nhận diện rõ.
+    Menu điều hướng dùng < div>  
+→ Nên dùng < nav> và danh sách < ul>< li> để thể hiện cấu trúc menu.
+   Tiêu đề sản phẩm dùng < div class="title">  
+→ Nên dùng thẻ heading như < h2> để Google hiểu đây là tiêu đề nội dung quan trọng.
 
 câu A3
 [hộp 1]->div
@@ -39,11 +39,10 @@ câu A3
 [hộp 3]
 câu A4
     -phân biệt
-    <thead>	Header	Tiêu đề cột
-    <tbody>	Body	Dữ liệu chính
-    <tfoot>	Footer	Tổng kết
+    < thead>	Header	Tiêu đề cột
+    < tbody>	Body	Dữ liệu chính
+    < tfoot>	Footer	Tổng kết
     -vì 
-    +<table> chỉ dùng cho dữ liệu dạng bảng (danh sách, so sánh, thống kê)
+    +< table> chỉ dùng cho dữ liệu dạng bảng (danh sách, so sánh, thống kê)
     +layout  khó thay đổi kích thước linh hoạt trên các thiết bị khác nhau
     +chỉnh sửa layout bằng bảng khó khăn
-     
